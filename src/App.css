@@ -1,0 +1,225 @@
+/* body{
+  background-image: url(https://static.wixstatic.com/media/c837a6_e388daae60224eb5905669d06ea5a017~mv2.jpg/v1/fill/w_1109,h_660,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/c837a6_e388daae60224eb5905669d06ea5a017~mv2.jpg);
+  background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  
+} */
+.nav1{
+  background-color:rgb( 244,242,236);
+ 
+}
+.a1{
+  margin-left: 400px;
+  color: rgb(9, 121, 105);
+}
+.a2{
+  font-family: 'Playfair Display', serif; 
+  color: rgb(9, 121, 105) ;
+  font-size: xx-large;
+ 
+}
+.div1{
+  height: 60px; 
+  width: 60px;
+   background-color: rgb(175, 225, 175)  ;
+  
+}
+.tag{
+  font-size: medium;
+  font-weight: 400;
+}
+
+.parallax-container {
+	height: 100vh;
+	overflow: hidden;
+	position: relative;
+  }
+
+ .parallax-section {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-attachment: fixed;
+	background-position: 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+  }
+
+  .parallax-section1 {
+	background-image: url('https://images.pexels.com/photos/2871648/pexels-photo-2871648.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+  opacity: 0.5;
+  z-index: 1;
+  object-fit: contain;
+  background-size: cover;
+  }
+  .parallax-section2 {
+    background-image: url('https://images.pexels.com/photos/12706226/pexels-photo-12706226.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    opacity: 0.5;
+    z-index: 1;
+    background-size: cover;
+object-fit: cover;
+    }
+  
+
+  .content {
+	position: relative;
+	z-index: 3;
+	text-align: center;
+	padding: 100px;
+	color: #fff;
+  }
+  .div2{
+    background-color: black;
+    }
+    .para1{
+    color: white;
+    font-size: 30px;
+    letter-spacing: 0.5em;
+    font-family: 'Raleway', sans-serif;
+    }
+    .heading1{
+      font-size: 120px;
+      letter-spacing: 0.3em;
+      font-family: 'Playfair Display', serif;
+      margin-top: 145px;
+    }
+   .heading2{
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    color:rgb(9, 121, 105) ; 
+    font-size: 50px;
+   }
+   .para2{
+    font-family: 'Montserrat', sans-serif;
+     text-align: center;
+     font-size: 25px;
+   }
+  .heading3{
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+
+  }
+  .para3{
+    text-align: center;
+    color: rgb(9, 121, 105) ; 
+
+  }
+span{
+ text-decoration: line-through;
+}
+img{
+  position: absolute;
+}
+.div5{
+  position: relative;
+  height: 25px;
+  width: 120px;
+  background-color: rgb(9, 121, 105) ;
+}
+.para4{
+  color: white;
+}
+.div6{
+position:relative;
+margin-top: 470px;
+}
+.butt1{
+  border: 1px solid #000; 
+  color: rgb(9, 121, 105);
+  padding: 10px 20px; 
+  background-color: #fff; 
+ 
+  font-size: 16px; 
+  cursor: pointer;
+}
+.butt1:hover {
+  background-color: rgb(9, 121, 105); 
+  color: #fff; 
+}
+.div7{
+  text-align: center;
+}
+.butt2{
+  border: 1px solid #f8f7f7; 
+  color:white;
+  padding: 10px 20px; 
+  background-color: rgb( 244,242,236,0);
+ 
+ 
+  font-size: 16px; 
+  cursor: pointer;
+}
+.butt2:hover {
+  background-color:white; 
+  color:rgb(9, 121, 105); 
+}
+.heading4{
+  margin-top: 150px;
+  font-family: 'Playfair Display', serif;
+
+}
+.para5{
+  font-family: 'Montserrat', sans-serif;
+font-size: small;
+}
+.heading5{
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+  color: rgb(9, 121, 105); 
+
+}
+.d1{
+  height: 100px;
+  width: 100px;
+  background-color:rgb(9, 121, 105);
+  text-align: center;
+  /* align-items: center; */
+  font-family: 'Playfair Display', serif;
+}
+.row1{
+  text-align: center;
+  background-color:#AFE1AF;
+}
+.head1{
+  font-family: 'Playfair Display', serif;
+  text-align: center;
+}
+a{
+  text-decoration: none;
+  color: #000;
+}
+h1{
+  flex-wrap: wrap;
+  /* display: flex; */
+
+  
+}
+@media(max-width:991px){
+.heading1{
+  font-size: 50px;
+}
+.para1{
+  font-size: medium;
+}
+}
+
+@media(max-width:500px){
+  .heading1{
+    font-size: 30px;
+  }
+  .heading4{
+    font-size: 20px;
+    margin-top: 10px;
+  }
+  .para5{
+    font-size: 10px;
+    
+  }
+  }
+  @media(max-width:770px){
+.heading4{
+  font-size: 20px;
+}
+  }
